@@ -76,7 +76,7 @@ p {
 
 h1 {
   color: var(--text-strong);
-  font-size: 15px;
+  font-size: 1.6em;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -118,6 +118,16 @@ a.name-link:focus-visible {
   color: var(--name-link-hover);
 }
 
+.social-links a {
+  color: var(--name-link);
+  text-decoration: none;
+}
+
+.social-links a:hover,
+.social-links a:focus-visible {
+  color: var(--name-link-hover);
+}
+
 a:focus-visible {
   outline: 2px solid var(--link-hover);
   outline-offset: 4px;
@@ -137,10 +147,6 @@ a:focus-visible {
   .intro {
     width: min(100%, 580px);
   }
-
-  h1 {
-    font-size: 14px;
-  }
 }
 
 @media (max-width: 560px) {
@@ -152,10 +158,6 @@ a:focus-visible {
   .page-shell {
     padding: 40px 22px;
   }
-
-  h1 {
-    font-size: 13px;
-  }
 }
 
 @media (max-width: 380px) {
@@ -165,9 +167,5 @@ a:focus-visible {
 
   .page-shell {
     padding-inline: 18px;
-  }
-
-  h1 {
-    font-size: 12px;
   }
 }

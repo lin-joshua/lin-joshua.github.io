@@ -1,12 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <!-- Two bodies orbiting their common barycenter -->
+  <!-- Light cone: future and past null cones meeting at an event -->
   <rect width="64" height="64" rx="14" fill="#0a0a0a"/>
-  <g transform="translate(32 32) rotate(-40)">
-    <g fill="none" stroke="#e6e6e6" stroke-opacity=".34" stroke-width="2.2">
-      <circle r="21"/>
-      <circle r="8"/>
-    </g>
-    <circle cx="-8" r="5.6" fill="#e6e6e6"/>
-    <circle cx="21" r="3.6" fill="#e6e6e6"/>
+  <g fill="none" stroke="#e6e6e6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M15 55A17 4.5 0 0 1 49 55" stroke-opacity=".4" stroke-width="3"/>
+    <path d="M15 55A17 4.5 0 0 0 49 55M15 9L49 55M49 9L15 55" stroke-width="4"/>
+    <ellipse cx="32" cy="9" rx="17" ry="4.5" stroke-width="4"/>
   </g>
 </svg>
