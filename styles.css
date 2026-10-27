@@ -25,12 +25,12 @@
 :root {
   color-scheme: dark;
   --background: #020202;
-  --text: #a7a7a7;
+  --text: #c4c4c4;
   --text-strong: #d9d9d9;
   --link: #c9c9c9;
   --link-hover: #ffffff;
-  --name-link: #c8b99a;
-  --name-link-hover: #eadcc0;
+  --name-link: #e2c07a;
+  --name-link-hover: #f5dca4;
 }
 
 * {
