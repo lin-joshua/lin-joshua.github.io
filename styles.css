@@ -118,9 +118,24 @@ a.name-link:focus-visible {
   color: var(--name-link-hover);
 }
 
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* Match the body line-height so the row is spaced like a line of text. */
+  min-height: 1.6em;
+}
+
 .social-links a {
+  display: inline-flex;
   color: var(--name-link);
   text-decoration: none;
+}
+
+.social-links svg {
+  width: 0.9em;
+  height: 0.9em;
+  fill: currentColor;
 }
 
 .social-links a:hover,
